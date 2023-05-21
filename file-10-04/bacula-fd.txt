@@ -1,0 +1,25 @@
+Director {
+  Name = nodetwo-dir
+  Password = "tRmRKpQJ1TiQj8a6GNZuchd2jEFlzce13"
+}
+
+Director {
+  Name = nodetwo-mon
+  Password = "NkkJhhkx7N1ej_rIV1T_9eYXFmHFEWmdT"
+  Monitor = yes
+}
+
+FileDaemon {                          # this is me
+  Name = nodetwo-fd
+  FDport = 9102                  # where we listen for the director
+  WorkingDirectory = /var/lib/bacula
+  Pid Directory = /run/bacula
+  Maximum Concurrent Jobs = 20
+  Plugin Directory = /usr/lib/bacula
+  FDAddress = 127.0.0.1
+}
+
+Messages {
+  Name = Standard
+  director = nodetwo-dir = all, !skipped, !restored
+}
