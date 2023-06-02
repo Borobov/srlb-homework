@@ -91,7 +91,8 @@ Disaster Recovery (DR) — катастрофоустойчивость или �
 
 ### Ответ:
 Конфигруационные файлы rsync
-1. [Server backup-server1.sh](https://github.com/Borobov/srlb-homework/blob/srlb-14/file-10-06/backup-server1.sh-srv)
-2. [Client rsyncd.conf](https://github.com/Borobov/srlb-homework/blob/srlb-14/file-10-06/rsyncd.conf-client)
-3. [Server rsync.scrt](https://github.com/Borobov/srlb-homework/blob/srlb-14/file-10-06/rsync.scrt-client)
+1. [Server backup-server1.sh](https://github.com/Borobov/srlb-homework/blob/srlb-14/file-10-06/backup-server1.sh-server)
+2. [Server rsyncd.scrt](https://github.com/Borobov/srlb-homework/blob/srlb-14/file-10-06/rsyncd.scrt-server)
+3. [Client rsyncd.conf](https://github.com/Borobov/srlb-homework/blob/srlb-14/file-10-06/rsyncd.conf-client)
+4. [Client rsync.scrt](https://github.com/Borobov/srlb-homework/blob/srlb-14/file-10-06/rsync.scrt-client)
 
