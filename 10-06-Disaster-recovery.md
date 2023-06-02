@@ -99,5 +99,5 @@ Disaster Recovery (DR) — катастрофоустойчивость или �
 Так же нужно будет создать задание в CRON для выполнения скрипта backup-server1.sh
 
 crontab -e  
-00 19 * * 1-5 /scripts/backup-server1.sh  
+00 19 * * 1-5 sh /scripts/backup-server1.sh  
 
