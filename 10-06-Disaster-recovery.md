@@ -96,5 +96,5 @@ Disaster Recovery (DR) — катастрофоустойчивость или �
 3. [Client rsyncd.conf](https://github.com/Borobov/srlb-homework/blob/srlb-14/file-10-06/rsyncd.conf-client)
 4. [Client rsync.scrt](https://github.com/Borobov/srlb-homework/blob/srlb-14/file-10-06/rsync.scrt-client)
 
-Так же нужно будет создать задание в CRON
+Так же нужно будет создать задание в CRON для выполнения скрипта backup-server1.sh
 
